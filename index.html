@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mimosa Lodge #542 | The Future of Freemasonry in Lawrence County, TN</title>
     <meta name="description" content="Modern Freemasonry for men under 40 in Lawrenceburg, TN. Build unbreakable character, lead your community, and join a brotherhood that actually matters. Mimosa Lodge #542 – 118 S Locust Ave.">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net" rel="stylesheet">
     <style>
         .hero-bg { 
             background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(9, 9, 11, 1)), url('mimosa-lodge.jpg'); 
@@ -23,10 +23,16 @@
     <!-- HERO -->
     <section class="hero-bg relative flex flex-col items-center justify-center text-center px-6 pt-12 pb-16">
         <div class="relative z-10 max-w-4xl mx-auto">
-            <div class="flex justify-center mb-4">
-                <svg width="100" height="100" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="100" cy="100" r="90" stroke="#d4af37" stroke-width="12"/>
-                    <path d="M100 30 L130 85 L170 85 L140 120 L150 175 L100 150 L50 175 L60 120 L30 85 L70 85 Z" fill="#d4af37"/>
+            <div class="flex justify-center mb-6">
+                <!-- FREEMASON SQUARE AND COMPASS LOGO -->
+                <svg width="120" height="120" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org">
+                    <!-- Compass -->
+                    <path d="M50 10 L85 85 M50 10 L15 85" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+                    <circle cx="50" cy="10" r="3" fill="#d4af37"/>
+                    <!-- Square -->
+                    <path d="M20 50 L50 80 L80 50" stroke="#d4af37" stroke-width="6" fill="none" stroke-linejoin="round"/>
+                    <!-- The G -->
+                    <text x="50" y="58" text-anchor="middle" fill="#d4af37" font-family="serif" font-weight="bold" font-size="22">G</text>
                 </svg>
             </div>
             <h1 class="text-5xl md:text-7xl font-bold tracking-tighter mb-2">MIMOSA LODGE #542</h1>
@@ -37,14 +43,14 @@
         </div>
     </section>
 
-    <!-- WHY NOW (Tightened Padding) -->
+    <!-- WHY NOW -->
     <section class="py-12 bg-zinc-900">
         <div class="max-w-5xl mx-auto px-6">
             <h2 class="text-4xl font-bold text-center gold mb-10">Next Gen Brotherhood</h2>
             <div class="grid md:grid-cols-3 gap-6">
                 <div class="bg-zinc-800 p-6 rounded-2xl border border-zinc-700/30">
                     <h3 class="text-xl font-semibold mb-3">Level Up Yourself</h3>
-                    <p class="text-zinc-400 text-sm">Leadership, moral philosophy, and a network that pushes you forward — without the cheesy corporate vibe.</p>
+                    <p class="text-zinc-400 text-sm">Leadership training, public speaking, moral philosophy, and a network that actually pushes you forward.</p>
                 </div>
                 <div class="bg-zinc-800 p-6 rounded-2xl border border-zinc-700/30">
                     <h3 class="text-xl font-semibold mb-3">Build Lawrence County</h3>
@@ -74,14 +80,14 @@
                 <div class="bg-zinc-900 px-4 py-1 border border-zinc-800 rounded-full text-xs uppercase tracking-widest">Good Character</div>
             </div>
             
-            <a href="https://www.facebook.com/Mimosa542" target="_blank" class="inline-block gold underline text-lg">Message us on Facebook →</a>
+            <a href="https://www.facebook.com" target="_blank" class="inline-block gold underline text-lg">Message us on Facebook →</a>
         </div>
     </section>
 
     <!-- JOIN CTA -->
     <section id="join" class="py-12 bg-gradient-to-b from-zinc-900 to-black text-center">
         <div class="max-w-2xl mx-auto px-6">
-            <h2 class="text-4xl font-bold gold mb-4">Ready to lead?</h2>
+            <h2 class="text-4xl font-bold gold mb-4 text-center">Ready to lead?</h2>
             <p class="text-xl text-zinc-300 mb-0">Contact the Worshipful Master or Secretary.</p>
             <p class="text-xl text-zinc-300">We'll grab coffee — no suit required.</p>
         </div>
