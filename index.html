@@ -3,78 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mimosa Lodge #542 | The Future of Freemasonry in Lawrence County, TN</title>
-    <meta name="description" content="Modern Freemasonry for men under 40 in Lawrenceburg, TN. Build unbreakable character, lead your community, and join a brotherhood that actually matters. Mimosa Lodge #542 – 118 S Locust Ave.">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Mimosa Lodge #542 | The Future of Freemasonry</title>
+    <link href="https://cdn.jsdelivr.net" rel="stylesheet">
     <style>
-        .hero-bg { background-image: url('mimosa-lodge.jpg'); }
-        .gold { color: #d4af37; }
+        .gold { color: #f1c40f; }
+        .bg-gold { background-color: #f1c40f; }
+        /* High-impact banner styling */
+        .banner-img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            object-position: center 30%;
+        }
     </style>
 </head>
-<body class="bg-zinc-950 text-white font-sans">
-    <!-- HERO -->
-    <section class="hero-bg h-screen bg-cover bg-center relative flex items-center justify-center">
-        <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80"></div>
-        <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
-            <div class="flex justify-center mb-6">
-                <img src="lodge-building.jpg" alt="Mimosa Lodge Building" class="w-48 h-48 rounded-lg shadow-lg object-cover">
+<body class="bg-black text-white font-sans antialiased">
+
+<!-- HERO BANNER -->
+<header class="relative overflow-hidden border-b border-zinc-800">
+    <!-- Widened Photo across the top -->
+    <img src="lodge-building.jpg" alt="Mimosa Lodge Banner" class="banner-img grayscale hover:grayscale-0 transition duration-700">
+    
+    <!-- Gradient Overlay to blend text -->
+    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+    
+    <!-- Content Overlay -->
+    <div class="relative z-10 max-w-5xl mx-auto px-6 pt-10 pb-8 text-center">
+        <p class="text-xs md:text-sm font-black uppercase tracking-[0.3em] text-gold mb-2">
+            Not your grandfather's masonry.
+        </p>
+        <h1 class="text-4xl md:text-7xl font-black tracking-tighter mb-1">MIMOSA LODGE #542</h1>
+        <p class="text-2xl md:text-4xl font-light leading-tight mb-4">
+            The Future of Freemasonry in Lawrence County
+        </p>
+        <p class="text-sm md:text-base text-zinc-400 max-w-xl mx-auto uppercase tracking-widest">
+            Real men. Real growth. Real impact.
+        </p>
+    </div>
+</header>
+
+<!-- QUICK INFO BAR (Reduced White Space) -->
+<section class="py-6 bg-zinc-900 border-b border-zinc-800">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+        <div class="border-zinc-700 md:border-r">
+            <h3 class="text-gold font-bold text-sm uppercase">Stated Meetings</h3>
+            <p class="text-sm">1st Thursday @ 7:00 PM</p>
+        </div>
+        <div class="border-zinc-700 md:border-r">
+            <h3 class="text-gold font-bold text-sm uppercase">Practice</h3>
+            <p class="text-sm">3rd Thursday @ 7:00 PM</p>
+        </div>
+        <div>
+            <h3 class="text-gold font-bold text-sm uppercase">Location</h3>
+            <p class="text-sm">118 S Locust Ave, Lawrenceburg</p>
+        </div>
+    </div>
+</section>
+
+<!-- THE CORE (Tightened Grid) -->
+<section class="py-12 bg-black">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-zinc-950 p-6 rounded border border-zinc-800">
+                <h3 class="text-lg font-bold text-gold mb-2">Level Up Yourself</h3>
+                <p class="text-zinc-500 text-sm leading-relaxed">Leadership, moral philosophy, and a network that pushes you forward—all without the cheesy corporate vibe.</p>
             </div>
-            <h1 class="text-6xl md:text-7xl font-bold tracking-tighter mb-4">MIMOSA LODGE #542</h1>
-            <p class="text-4xl md:text-5xl font-light gold mb-8">The Future of Freemasonry<br>in Lawrence County</p>
-            <p class="text-xl md:text-2xl max-w-md mx-auto mb-10">Not your grandpa's lodge. Real men. Real growth. Real impact.</p>
-        </div>
-        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 text-sm tracking-widest animate-bounce">SCROLL FOR THE FUTURE ↓</div>
-    </section>
-
-    <!-- WHY NOW -->
-    <section class="py-20 bg-zinc-900">
-        <div class="max-w-5xl mx-auto px-6">
-            <h2 class="text-5xl font-bold text-center gold mb-12">Freemasonry for the Next Generation</h2>
-            <div class="grid md:grid-cols-3 gap-10">
-                <div class="bg-zinc-800 p-8 rounded-2xl">
-                    <h3 class="text-2xl font-semibold mb-4">Level Up Yourself</h3>
-                    <p class="text-zinc-400">Leadership training, public speaking, moral philosophy, and a network that actually pushes you forward — all without the cheesy corporate vibe.</p>
-                </div>
-                <div class="bg-zinc-800 p-8 rounded-2xl">
-                    <h3 class="text-2xl font-semibold mb-4">Build Lawrence County</h3>
-                    <p class="text-zinc-400">We're the guys running blood drives, feeding families, and funding scholarships — not just wearing aprons on Thursday nights.</p>
-                </div>
-                <div class="bg-zinc-800 p-8 rounded-2xl">
-                    <h3 class="text-2xl font-semibold mb-4">Brotherhood That Lasts</h3>
-                    <p class="text-zinc-400">Men under 40 who get it. No politics. No drama. Just real talk, real support, and lifelong friends who have your back.</p>
-                </div>
+            <div class="bg-zinc-950 p-6 rounded border border-zinc-800">
+                <h3 class="text-lg font-bold text-gold mb-2">Build the County</h3>
+                <p class="text-zinc-500 text-sm leading-relaxed">We're the guys running blood drives and funding local scholarships—not just wearing aprons.</p>
+            </div>
+            <div class="bg-zinc-950 p-6 rounded border border-zinc-800">
+                <h3 class="text-lg font-bold text-gold mb-2">Brotherhood</h3>
+                <p class="text-zinc-500 text-sm leading-relaxed">Men under 40 who get it. No politics. No drama. Just real talk and friends who have your back.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- LODGE INFO -->
-    <section class="py-20 bg-black">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-            <h2 class="text-4xl font-bold mb-8">Mimosa Lodge #542</h2>
-            <p class="text-2xl mb-6">118 South Locust Ave • Lawrenceburg, TN 38464</p>
-            <p class="text-xl text-zinc-400 mb-2">Stated meetings: First Thursday of every month at 7:00 PM</p>
-            <p class="text-xl text-zinc-400 mb-8">Practice Meetings: Third Thursday of every month at 7:00 PM</p>
-            <a href="https://www.facebook.com/Mimosa542" target="_blank" class="inline-block text-gold underline text-lg mb-8">Visit us on Facebook</a>
-            <div class="flex flex-wrap justify-center gap-6 text-sm uppercase tracking-widest">
-                <div class="bg-zinc-900 px-6 py-3 rounded-full">Open to men of good character 18 and up</div>
-                <div class="bg-zinc-900 px-6 py-3 rounded-full">No experience required</div>
-                <div class="bg-zinc-900 px-6 py-3 rounded-full">One meeting and you'll feel it</div>
-            </div>
-        </div>
-    </section>
+<!-- FINAL CTA -->
+<section class="py-12 bg-zinc-900 text-center">
+    <div class="px-6">
+        <h2 class="text-3xl font-bold mb-4">Ready to lead?</h2>
+        <a href="https://www.facebook.com" target="_blank" class="bg-gold text-black px-8 py-3 rounded font-black text-sm uppercase tracking-widest hover:bg-yellow-500 transition">
+            Message Us on Facebook
+        </a>
+        <p class="mt-6 text-zinc-500 text-xs uppercase tracking-tighter">© 2026 Mimosa Lodge #542 • AF&AM of Tennessee</p>
+    </div>
+</section>
 
-    <!-- JOIN CTA -->
-    <section id="join" class="py-24 bg-gradient-to-b from-zinc-900 to-black">
-        <div class="max-w-2xl mx-auto px-6 text-center">
-            <h2 class="text-5xl font-bold gold mb-6">Ready to write the next chapter?</h2>
-            <p class="text-2xl mb-10">Text or call Worshipful Master or the lodge secretary and we'll grab coffee — no suit required.</p>
-            <a href="https://www.facebook.com/Mimosa542" target="_blank" class="text-gold underline text-lg">Or message us on Facebook →</a>
-        </div>
-    </section>
-
-    <footer class="bg-black py-12 text-center text-xs text-zinc-500">
-        <p>© 2026 Mimosa Lodge #542 • Ancient Free & Accepted Masons of Tennessee</p>
-        <p class="mt-2">118 South Locust Ave, Lawrenceburg, TN 38464</p>
-    </footer>
 </body>
 </html>
