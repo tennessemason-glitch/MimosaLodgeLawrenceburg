@@ -7,16 +7,23 @@
     <meta name="description" content="Modern Freemasonry for men under 40 in Lawrenceburg, TN. Build unbreakable character, lead your community, and join a brotherhood that actually matters. Mimosa Lodge #542 – 118 S Locust Ave.">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        .hero-bg { background-image: url('mimosa-lodge.jpg'); }
-        .gold { color: #d4af37; }
+        /* This is the line that needs changing */
+        .hero-bg {
+            background-image: url('lodge-building.jpg');
+        }
+        .gold {
+            color: #d4af37;
+        }
     </style>
 </head>
 <body class="bg-zinc-950 text-white font-sans">
+
     <!-- HERO -->
     <section class="hero-bg h-screen bg-cover bg-center relative flex items-center justify-center">
         <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80"></div>
         <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
-            lodge-building.jpg
+            <div class="flex justify-center mb-6">
+                <img src="lodge-building.jpg" alt="Mimosa Lodge Building" class="w-48 h-48 rounded-lg shadow-lg object-cover">
             </div>
             <h1 class="text-6xl md:text-7xl font-bold tracking-tighter mb-4">MIMOSA LODGE #542</h1>
             <p class="text-4xl md:text-5xl font-light gold mb-8">The Future of Freemasonry<br>in Lawrence County</p>
@@ -77,5 +84,6 @@
         <p>© 2026 Mimosa Lodge #542 • Ancient Free & Accepted Masons of Tennessee</p>
         <p class="mt-2">118 South Locust Ave, Lawrenceburg, TN 38464</p>
     </footer>
+
 </body>
 </html>
